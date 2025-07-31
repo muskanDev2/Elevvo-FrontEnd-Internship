@@ -1,0 +1,36 @@
+/* ForecastCard.css */
+
+.forecast-card {
+  background: linear-gradient(to top, #ffffff, #e0ecff);
+  border-radius: 16px;
+  padding: 16px;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.forecast-card:hover {
+  transform: translateY(-5px);
+}
+
+.forecast-card h4 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.forecast-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+.forecast-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.temp {
+  font-weight: bold;
+  color: #0072ff;
+}

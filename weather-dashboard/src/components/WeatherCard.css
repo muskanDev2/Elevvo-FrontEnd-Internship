@@ -1,0 +1,14 @@
+/* src/components/WeatherCard.css */
+.weather-card {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card img {
+  width: 80px;
+}
+
